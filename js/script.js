@@ -9,6 +9,9 @@ function renderElementFromJSON(
     const tableNodeByType = () => {
         switch (tablePartType) {
             case 'head':
+                iterateKey = iterateKey.replace('_', ' ');
+                iterateKey = iterateKey.charAt(0).toUpperCase() + iterateKey.slice(1);
+
                 return `<th>${iterateKey}</th>`;
                 
             case 'body':
