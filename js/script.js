@@ -15,6 +15,9 @@ function renderElementFromJSON(
                 return `<th>${iterateKey}</th>`;
                 
             case 'body':
+                if (typeof iterateKey === 'string' && iterateKey.slice(0, 8) === 'https://')
+                    return `<td><img src="${iterateKey}"></td>`;
+
                 return `<td>${iterateKey}</td>`;
         
             default:

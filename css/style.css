@@ -1,3 +1,9 @@
 td, th {
     min-width: 150px;
 }
+
+td img {
+    display: inline-block;
+    max-width: 25px;
+    margin-left: 25px;
+}
