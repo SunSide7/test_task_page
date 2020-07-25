@@ -1,0 +1,22 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunSide7/default_template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunSide7/default_template/issues"
+  },
+  "homepage": "https://github.com/SunSide7/default_template#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
