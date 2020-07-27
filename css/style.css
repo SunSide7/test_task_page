@@ -15,6 +15,10 @@ td img {
     min-height: 100vh;
 }
 
+.table-container {
+    max-width: 1024px;
+}
+
 main {
     margin: 35px 0;
 
