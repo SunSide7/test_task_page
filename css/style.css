@@ -100,6 +100,16 @@ main {
     margin-left: 5px;
 }
 
+.dotted > a {
+    border-bottom: 1px dotted #fff;
+    transition: border-color .3s ease-in;
+}
+
+.dotted > a:hover {
+    border-color: transparent;
+    color: #fff;
+}
+
 @media (max-width: 991px) {
     .nav-flex-icons {
         margin-top: 10px;
