@@ -7,3 +7,92 @@ td img {
     max-width: 25px;
     margin-left: 25px;
 }
+
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    margin: 35px 0;
+
+}
+
+.navbar {
+    background-color:blue;
+}
+
+.table {
+    padding: 0;
+    margin: 0;
+
+    border: 1px solid #eee;
+}
+
+.footer {
+    display: flex;
+    padding: 20px;
+    margin-top: auto;
+
+    background-color: blue;
+    color: #ffffff;
+}
+
+.footer-menu {
+    list-style: none;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: -7px;
+    
+    list-style: none;
+}
+
+.footer-item {
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+.footer-item,
+.footer-icon {
+    transition: color .3s ease-in;
+    cursor: pointer;
+}
+
+.footer-item:hover,
+.footer-icon:hover {
+    color: rgba(255,255,255,.75);
+}
+
+.footer-address-item:not(:first-child) {
+    margin-top: 7px;
+}
+
+.footer-address-item:last-child {
+    margin-top: 35px;
+}
+
+.footer-icon .nav-link {
+    padding: 0.5rem 0.5rem;
+}
+.footer-icon:not(:first-child) {
+    margin-left: 5px;
+}
+
+@media (max-width: 991px) {
+    .nav-flex-icons {
+        margin-top: 10px;
+        flex-direction: row;
+    }
+    
+    .nav-icon:not(:first-child) {
+        margin-left: 15px;
+    }
+}
