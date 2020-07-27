@@ -1,3 +1,12 @@
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+
 td, th {
     min-width: 150px;
 }
@@ -64,14 +73,15 @@ main {
     margin-top: 7px;
 }
 
-.footer-item,
-.footer-icon {
+.footer-item a,
+.footer-icon a {
+    color: #ffffff;
     transition: color .3s ease-in;
     cursor: pointer;
 }
 
-.footer-item:hover,
-.footer-icon:hover {
+.footer-item a:hover,
+.footer-icon a:hover {
     color: rgba(255,255,255,.75);
 }
 
